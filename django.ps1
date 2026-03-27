@@ -17,7 +17,9 @@ pip install django
 
 #startproject and an app
 django-admin startproject $ProjectName . 
+Write-Output "Project created successfully"
 
 python manage.py startapp $AppName
+Write-Output "App created successfully"
 
 
